@@ -1,2 +1,2 @@
 # FrontendDesigns
-Sample front end designs. Open html files with chrome to view.
+Sample front end designs. Downlaod code and Open html files with any web browser to view.
