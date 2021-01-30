@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    color: rgb(233, 243, 96);
+    background-attachment: fixed;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0;
+
+}
+
+#header{
+    width: 100%;
+    background-color: rgb(236, 182, 82);
+    margin: auto;
+    top: 0;
+    padding: 10px;
+}
+
+tr, td{
+    margin: auto;
+    padding: 5px;
+}
+
+
+#signupfield{
+    background-color: green;
+    color: white;
+}
+#cancelfield{
+    background-color: red;
+    color: white;
+}
+#alltext{
+    background-color: black;
+    height: 85vh;
+    background-attachment: fixed;
+    overflow: auto;
+    position: relative;
+    padding-top: 100px;
+}
+table{
+    margin: auto;
+}
+#gender{
+    float: left;
+}
+input[type=text]
+{
+    width: 150%;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#female{
+    margin-left: -105px;
+}
+#day{
+    margin-left: -88px;
+}
+#monthoptions, #dayoptions, #yearoptions, #countryoption{
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+}
+input[type=submit]
+{
+    width: 5%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin: 8px;
+    float: right;
+}
+#signupfield:hover{
+    background-color:rgb(53, 172, 172);
+}
+#cancelfield:hover{
+    background-color: rgb(161, 59, 59);
+}
+#buttons{
+    background-color: rgb(236, 182, 82);
+    display: table;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    input[type=submit]
+    {
+        width: 12%;
+    }
+   
+    
+  }
+  @media only screen and (min-width: 600px) {
+    input[type=submit]
+    {
+        width: 10%;
+    }
+ 
+  }
+  @media only screen and (min-width: 768px) {
+ 
+  }
+  @media only screen and (min-width: 992px) {
+    input[type=submit]
+    {
+        width: 7%;
+    }
+   
+  }
+
+  
+  

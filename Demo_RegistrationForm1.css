@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fb035e+10,fd73aa+100 */
+background: #fb035e; /* Old browsers */
+background: -moz-linear-gradient(left,  #fb035e 10%, #fd73aa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #fb035e 10%,#fd73aa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #fb035e 10%,#fd73aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb035e', endColorstr='#fd73aa',GradientType=1 ); /* IE6-9 */
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+}
+
+input[type=text]
+{
+    width: 150%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=password]
+{
+    width: 150%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit]
+{
+    width: 150%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+#main{
+margin: auto;
+background-color: rgb(155, 28, 87);
+padding: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-right: 128px;
+margin-top: 10px;
+border-radius: 10px;
+
+}
+
+tr, td{
+    padding: 10px;
+}
+#signin{
+    color: white;
+}
+
+#header{
+    color: white;
+    border-bottom: 1px solid black;
+    width: 28%;
+    margin: auto;
+    margin-top: 45px;
+    padding: 5px
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    #header {
+      width: 60%;
+
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    #header {
+      width: 50%;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    #header {
+      width: 38%;
+
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    #header {
+      width: 28%;
+
+    }
+  }
