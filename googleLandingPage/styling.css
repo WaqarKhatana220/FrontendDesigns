@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+}
+
+body{
+    overflow: auto;
+}
+
+.topmenu{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.rightContent{
+    float: right;
+    margin-left: auto;
+    
+}
+
+.gmail{
+    display: inline-block;
+}
+
+
+.images{
+    display: inline-block;
+}
+
+
+.button{
+    display: inline-block;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 9px 23px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.aButton{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: .25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.aTopMenu{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0px 5px;
+
+}
+
+.google{
+    display: table;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content{
+    margin: auto;
+    width: auto;
+    max-width: 584px;
+    align-items: center;
+}
+
+.searchContent{
+    margin: auto;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    max-width: 584px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.searchContent:hover{
+    box-shadow: 1px 1px 5px 0px grey;
+
+}
+
+.searchBar{
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+    
+}
+
+.buttons{
+    margin: auto;
+    display: table;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gButton{
+    padding: 0 16px;
+    height: 36px;
+    margin-left: 8px;
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
+
+.gButton:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.searchContent svg{
+    width: 10%;
+    color: grey;
+}
+
+.endText{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.endText a{
+    color: #1a0dab;
+    padding: 0 3px;
+    direction: rtl;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+}
+
+.footer a{
+    cursor: pointer;
+}
+.Pakistan{
+    padding: 15px 30px;
+    color: rgba(0,0,0,.54);
+    border-bottom: 1px solid #dadce0;
+    margin: 0;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom a{
+    color: #70757a;
+    padding: 0px 10px;
+}
+.leftBottom{
+    padding: 15px 20px;
+    display: flex;
+
+}
+
+.rightBottom{
+    padding: 15px 20px;
+    display: flex;
+}
+
+@media only screen and (max-width: 678px){
+    .bottom{
+        display: block;
+    }
+    .leftBottom{
+        display: table;
+        margin: auto;
+    }
+    .rightBottom{
+        display: table;
+        margin: auto;
+    }
+    .searchContent{
+        width: 95%;
+    }
+   
+}
